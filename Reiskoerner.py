@@ -9,4 +9,5 @@ for feld in range(64):
     summe+=reiskorn
     print(f"Feld {feld+1}: {reiskorn:,.0f} Reiskörner und damit gesamt {summe:,.0f} Reiskörner")
     vol=summe /(1e6**3) 
-    print(f"Wenn ein Reiskorn ein Volumen von 1mm3 hat, errechnen sich daraus {vol:,.1f} km3 (=Kubikkilometer)")
+
+print(f"Wenn ein Reiskorn ein Volumen von 1mm3 hat, errechnen sich daraus {vol:,.1f} km3 (=Kubikkilometer)")
